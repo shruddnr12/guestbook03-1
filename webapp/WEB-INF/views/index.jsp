@@ -32,7 +32,7 @@
 			<tr>
 				<td>[${count-status.index }]</td>
 				<td>${vo.name }</td>
-				<td>${vo.regDate }<</td>
+				<td>${vo.regDate }</td>
 				<td><a href="${pageContext.servletContext.contextPath }/delete/${vo.no }">삭제</a></td>
 			</tr>
 			<tr>
