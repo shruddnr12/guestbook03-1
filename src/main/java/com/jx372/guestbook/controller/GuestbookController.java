@@ -19,7 +19,7 @@ public class GuestbookController {
 	@Autowired
 	private GuestbookDao guestbookDao;
 
-	@RequestMapping( { "", "/list" } )
+	@RequestMapping( { "/", "/list" } )
 	public String list( Model model ) {
 		List<GuestbookVo> list = guestbookDao.getList();
 		model.addAttribute( "list", list );
